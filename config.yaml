@@ -1,2 +1,3 @@
 ---
-dataset_path : 'C:\Users\M-Ali\Downloads\New Masks Dataset'
+
+dataset_path : 'path\to\Downloads\New Masks Dataset' # download the dataset and modify the path here
