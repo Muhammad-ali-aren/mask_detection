@@ -11,7 +11,7 @@ model.load_state_dict(torch.load(model_path))
 model.eval()
 print('Model loaded successfully...')
 
-cascade_path = r"C:\Users\M-Ali\Downloads\New Masks Dataset\haarcascade_frontalface_default.xml"
+cascade_path = r"path\to\haarcascade_frontalface_default.xml" # download the cascade model weight and change the path here
 face_cascade = cv.CascadeClassifier(cascade_path)
 
 def detect_face(img):
@@ -72,6 +72,7 @@ def real_time_detection(video_path=None,camera=None):
 
 
 real_time_detection(camera=0)
+
 
 
 
